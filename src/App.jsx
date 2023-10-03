@@ -20,7 +20,7 @@ import { ProyectosProvider } from "./context/ProyectosProvider";
 
 const App = () => {
   return (
-    <BrowserRouter basename="/index.html">
+    <BrowserRouter>
       <AuthProvider>
         <ProyectosProvider>  
         <Routes>
